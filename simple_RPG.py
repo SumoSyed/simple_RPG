@@ -163,10 +163,13 @@ def game():
 		print("...")
 
 		if plyr_health <= 0:
-			return "The enemy won."
+			print("The enemy won.")
+			input("...")
+			return
 		elif enmy_health <= 0:
-			return "You win!"
-
+			print("You win!")
+			input("...")
+			return
 
 answer = input("Would you like to play a simple RPG battle? Type yes or no: ").lower().strip()
 if answer == "yes":
