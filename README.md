@@ -1,0 +1,2 @@
+Simple RPG is a text based single battle game.
+Players have the option to either attack or block their enemy's movement. There is a chance for both player and computer to miss. Players will have to select their choice of equipment and will then move forward with their choice of battle. Entire game is based on user input and comparisions using a short loop.
