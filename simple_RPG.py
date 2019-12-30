@@ -49,7 +49,7 @@ def game():
 		print("")
 
 	#Battle sim
-	while plyr_health > 0 or enmy_health > 0:
+	while plyr_health > 0 and enmy_health > 0:
 
 		#Assign values to Moves	
 		general_attk = 5
